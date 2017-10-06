@@ -1,0 +1,60 @@
+public class CRC_32
+{
+	
+	private static int table = crc_table();
+
+	private const long binom = 0x04C11DB7;
+	private long cvalue = 0;
+
+	private static int crc_table(){
+
+	}
+	
+	public void update(int b)
+	{		
+		
+	private int i ;
+	private byte b ; 
+	b = i & 0xff ;
+
+
+		private int cvalue;
+		private byte b; 
+
+	}
+	
+	public void update(byte[] b, int off, int len)
+	{
+		cvalue = cvalue & 0x00;
+		while(--len >= 0)
+			cvalue = (cvalue << 1) ^ b[off++];				
+			cvalue = cvalue >>> 8; 		
+			
+	}
+	
+	
+	public void update(byte[] b)
+	
+	{
+		
+	}
+	
+	
+	public void reset()
+	{
+		cvalue = 0;
+	}
+	
+	public long getValue()
+	{
+		
+		return cvalue;
+	}
+	
+	
+}
+
+
+public CRC32 fajl;
+
+fajl.update(6, 2, 6)
