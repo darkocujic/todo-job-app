@@ -1,1 +1,3 @@
 # todo-job-app
+
+run todo_db.sql, and enjoy...
